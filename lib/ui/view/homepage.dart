@@ -20,8 +20,6 @@ class _AnasayfaState extends State<Anasayfa> {
   //var tfSearch = TextEditingController();
 
 
-
-
   @override
   void initState() {
     super.initState();

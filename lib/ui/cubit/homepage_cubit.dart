@@ -9,7 +9,7 @@ class HomepageCubit extends Cubit<List<ToDos>> {
   var toDoRepo = ToDoRepository();
 
 
-//cubit dosyalarında void olmalı return değeri döndürmicek
+//cubit dosyalarında void olmalı return değeri döndürmeyecektir
   Future<void> toDosLoading() async {
 
     var list = await toDoRepo.toDosLoading();
